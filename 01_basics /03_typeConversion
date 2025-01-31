@@ -1,0 +1,41 @@
+let score = "Null"; 
+
+// console.log(typeof(score));
+// console.log(typeof score); 
+let valueIntNumber = Number(score);
+// console.log(typeof valueIntNumber);
+// console.log(valueIntNumber);
+
+//for score = null output will be :-
+//object 
+//object 
+//number
+//0
+
+//for score = undefined output will be :-
+//undefined 
+//undefined 
+//number 
+//NaN
+
+//
+
+let idNumber = 1
+
+let booleanIdNumber = Boolean(idNumber);
+//console.log(booleanIdNumber); 
+
+//1 => true , 0 => false
+//"" => false , "name" => true
+
+let someNumber = 33
+
+let srtingSomeNumber = String(someNumber)
+console.log(srtingSomeNumber);
+console.log(typeof srtingSomeNumber);
+
+
+
+
+
+
